@@ -1,0 +1,119 @@
+.large{
+  background-color: #F2F2F2;
+  width: 100%;
+  border-radius: 5px;
+  
+}
+
+h1{
+  text-align: center;
+  padding-top: 20px;
+  font-family: times new roman;
+}
+
+h2{
+  text-align: center;
+  font-family: times new roman;
+  font-style: italic;
+  font-weight: normal;
+}
+
+.big{
+  background-color: white;
+  width: 95%;
+  margin: 0 auto;
+}
+
+img{
+  width: 93%;
+  max-width: 100%;
+  display: block;
+  margin: auto;
+  margin-bottom: 0;
+  padding-bottom: 0;
+  
+
+}
+
+.big p{
+  text-align: center;
+  margin: 20px;
+  margin-top: none;
+  padding: 0 10px 20px 10px;
+}
+
+.keypoints {
+  margin: 0 auto;
+  width: 45%;
+  display: block;
+  text-align: left;
+}
+
+.keypoints li {
+  margin: 0;
+  padding: 10px 0;
+  text-align: left;
+  font-family: tahoma;
+}
+
+.keypoints h3{
+  text-align: center;
+  font-size: 1.5rem;
+  
+}
+
+.quote{
+  margin: 0 auto;
+  text-align: center;
+  display: block;
+  width: 60%;
+  padding-top: 20px;
+  font-style: italic;
+}
+
+.wiki{
+  text-align: center;
+  padding: 15px 0;
+  font-weight: bold;
+  font-size: 1.2rem;
+  color: #333333;
+}
+
+a{
+  color: grey;
+  text-decoration: none;
+}
+a:hover{
+  color: black;
+}
+
+
+#img-div {
+  display: inline-block;
+}
+
+#image {
+  height: auto;
+  display: block;
+  max-width: 100%;
+}
+
+#img-caption{
+    text-align: center;
+    padding-top: 20px;
+}
+
+@media (max-width: 600px){
+  .keypoints{
+    width: 90%;
+  } 
+  #img-caption{
+    width: 90%;
+    margin: 0;
+
+  }
+  .quote{
+    width: 90%;
+  }
+
+}
